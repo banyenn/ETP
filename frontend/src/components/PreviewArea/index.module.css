@@ -1,0 +1,38 @@
+.previewWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.previewTable {
+  width: 100%;
+}
+
+/* 确保表格内容可以横向滚动 */
+.previewTable :global(.ant-table-content) {
+  overflow-x: auto !important;
+}
+
+/* 优化表格单元格样式 */
+.previewTable :global(.ant-table-cell) {
+  white-space: nowrap;
+}
+
+.previewArea {
+  width: 100%;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+}
+
+/* 确保表格容器可以横向滚动 */
+.table :global(.ant-table-container) {
+  overflow-x: auto;
+}
+
+/* 设置表格单元格的最小宽度 */
+.table :global(.ant-table-cell) {
+  min-width: 100px;
+  white-space: nowrap;
+}

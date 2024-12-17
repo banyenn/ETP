@@ -1,0 +1,51 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.excelTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.excelTable th,
+.excelTable td {
+  min-width: 150px;
+  padding: 8px;
+  border: 1px solid #e8e8e8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container {
+  padding: 24px;
+  width: 100%;
+}
+
+.uploadSection {
+  margin-bottom: 24px;
+}
+
+.previewSection {
+  width: 100%;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  padding: 16px 24px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sectionHeader h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sectionHeader span {
+  color: #999;
+} 
